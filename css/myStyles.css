@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center; /* Align text to the center globally */
+}
+
+.header, .footer {
+    padding: 20px;
+    background-color: #dfdfe2;
+    margin: 0 auto; /* Auto margins work with block elements to center them */
+}
+
+.main-content {
+    padding: 20px;
+    margin: 10px auto; /* Auto margins on the side to center the div */
+    display: block; /* Ensures the div is a block element, which respects margin auto */
+    max-width: 800px; /* Adjust this as needed for your desired width */
+}
+
+h1, h2, h3, h4 {
+    color: #275d8c;
+    text-align: center; /* Center aligns headers */
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image */
+}
+
+iframe {
+    display: block; /* Makes the iframe a block element */
+    margin: 20px auto; /* Centers the iframe */
+    max-width: 560px; /* Adjust this to control the video width */
+}
+
+.tableau {
+    margin: 20px auto; /* Auto margins on the side to center the div */
+    width: 100%; /* Width of the div to fit the container */
+    max-width: 800px; /* Maximum width of the visualization, adjust as needed */
+}
+
+.tableau iframe {
+    width: 100%; /* Make the iframe responsive */
+    height: 600px; /* Set a fixed height for the visualization */
+}
+
+ol, ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li ul {
+    list-style-type: disc; /* or 'circle' for hollow bullets */
+    padding-left: 20px; /* Adjust this value as needed to align your bullets */
+}
+
